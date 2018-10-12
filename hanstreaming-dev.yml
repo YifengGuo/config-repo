@@ -217,7 +217,7 @@ web:
 
   es:
     cluster.name: "es-jw-darpa"
-    hosts: ["172.16.150.172"]
+    hosts: ["172.16.150.149"]
     http.port: "29200"
     transport.tcp.port: "29300"
 
