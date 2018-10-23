@@ -5,6 +5,8 @@ data-collector:
     cluster-name: "es-jw-darpa"
     cluster-nodes: "172.16.150.172"
     tcp-port: "29300"
+    http-port: "29200"
+    http-schema: "http"
     # This instructs the sink to emit after evert element, otherwise they would be buffered
     buffer-size: "1"
     query-scroll-size: 1000
@@ -219,6 +221,7 @@ web:
     cluster.name: "es-jw-darpa"
     hosts: ["172.16.150.149"]
     http.port: "29200"
+    http.schema: "http"
     transport.tcp.port: "29300"
 
   redis:
